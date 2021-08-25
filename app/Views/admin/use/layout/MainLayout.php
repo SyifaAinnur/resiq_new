@@ -1,9 +1,5 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from admin.pixelstrap.com/cuba/theme/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Feb 2021 13:20:15 GMT -->
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -99,7 +95,4 @@
     <!-- login js-->
     <!-- Plugin used-->
 </body>
-
-<!-- Mirrored from admin.pixelstrap.com/cuba/theme/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Feb 2021 13:21:36 GMT -->
-
 </html>

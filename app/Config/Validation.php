@@ -40,4 +40,17 @@ class Validation
 	//--------------------------------------------------------------------
 	// Rules
 	//--------------------------------------------------------------------
+	// Validasi Login Admin
+	public $login_admin = [
+		'username' 	=> 'required',
+		'password' 	=> 'required'
+	];	 
+	public $login_admin_errors = [
+		'username' 	=> [
+			'required'      => 'Username wajib diisi'
+		],
+		'password' 	=> [
+			'required'      => 'Password wajib diisi'
+		]
+	];
 }

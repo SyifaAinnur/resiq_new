@@ -15,7 +15,7 @@ class Security extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $tokenName = 'csrf_test_name';
+	public $tokenName = 'resiq_token';
 
 	/**
 	 * --------------------------------------------------------------------------
