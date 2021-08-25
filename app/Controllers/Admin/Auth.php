@@ -38,7 +38,7 @@ class Auth extends BaseController{
 						session()->setFlashdata('error', 'Anda tidak memiliki akses');
 						return redirect()->to(base_url('admin/login'));
 					}
-					
+
                     if(password_verify($password, $check_user['sandi'])){
                         session()->set('admin_user',$check_user['username']);
                         return redirect()->to(base_url('admin/dashboard'));
@@ -52,5 +52,18 @@ class Auth extends BaseController{
                 }
             }
 		}
+	}
+
+	public function logout(){
+		// Proteksi
+		 if(session()->get('admin_user') == "") {
+            session()->setFlashdata('error', 'Anda belum login');
+            return redirect()->to(base_url('admin/login'));
+        }
+        // End proteksi
+		
+		unset($_SESSION['admin_user']);
+		session()->setFlashdata('success', 'Anda berhasil logout');
+		return redirect()->to(base_url('admin/login'));
 	}
 }
