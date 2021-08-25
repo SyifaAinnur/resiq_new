@@ -18,7 +18,7 @@
                     </div>
                 </form>
                 <div class="header-logo-wrapper col-auto p-0">
-                    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid" src="../assets/images/logo/logo.png" alt=""></a></div>
+                    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid" src="<?= base_url(); ?>/assets/admin/images/logo/logo.png" alt=""></a></div>
                     <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="align-center"></i></div>
                 </div>
                 <div class="left-header col horizontal-wrapper ps-0">
@@ -221,7 +221,7 @@
                                     <h6 class="mb-0 f-20">Shoping Bag</h6><i data-feather="shopping-cart"></i>
                                 </li>
                                 <li class="mt-0">
-                                    <div class="media"><img class="img-fluid rounded-circle me-3 img-60" src="../assets/images/ecommerce/01.jpg" alt="">
+                                    <div class="media"><img class="img-fluid rounded-circle me-3 img-60" src="<?= base_url(); ?>/assets/admin/images/ecommerce/01.jpg" alt="">
                                         <div class="media-body"><span>V-Neck Shawl Collar Woman's Solid T-Shirt</span>
                                             <p>Yellow(#fcb102)</p>
                                             <div class="qty-box">
@@ -266,7 +266,7 @@
                                     <h6 class="f-18 mb-0">Message Box </h6>
                                 </li>
                                 <li>
-                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/1.jpg" alt="">
+                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="<?= base_url(); ?>/assets/admin/images/user/1.jpg" alt="">
                                         <div class="status-circle online"></div>
                                         <div class="media-body"><span>Erica Hughes</span>
                                             <p>Lorem Ipsum is simply dummy...</p>
@@ -275,7 +275,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/2.jpg" alt="">
+                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="<?= base_url(); ?>/assets/admin/images/user/2.jpg" alt="">
                                         <div class="status-circle online"></div>
                                         <div class="media-body"><span>Kori Thomas</span>
                                             <p>Lorem Ipsum is simply dummy...</p>
@@ -284,7 +284,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="../assets/images/user/4.jpg" alt="">
+                                    <div class="media"><img class="img-fluid rounded-circle me-3" src="<?= base_url(); ?>/assets/admin/images/user/4.jpg" alt="">
                                         <div class="status-circle offline"></div>
                                         <div class="media-body"><span>Ain Chavez</span>
                                             <p>Lorem Ipsum is simply dummy...</p>
@@ -297,7 +297,7 @@
                         </li>
                         <li class="maximize"><a class="text-dark" href="#!" onclick="javascript:toggleFullScreen()"><i data-feather="maximize"></i></a></li>
                         <li class="profile-nav onhover-dropdown p-0 me-0">
-                            <div class="media profile-media"><img class="b-r-10" src="../assets/images/dashboard/profile.jpg" alt="">
+                            <div class="media profile-media"><img class="b-r-10" src="<?= base_url(); ?>/assets/admin/images/dashboard/profile.jpg" alt="">
                                 <div class="media-body"><span>Emay Walter</span>
                                     <p class="mb-0 font-roboto">Admin <i class="middle fa fa-angle-down"></i></p>
                                 </div>
@@ -329,16 +329,16 @@
             <!-- Page Sidebar Start-->
             <div class="sidebar-wrapper">
                 <div>
-                    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid for-light" src="../assets/images/logo/logo.png" alt=""><img class="img-fluid for-dark" src="../assets/images/logo/logo_dark.png" alt=""></a>
+                    <div class="logo-wrapper"><a href="index.html"><img class="img-fluid for-light" src="<?= base_url(); ?>/assets/admin/images/logo/logo.png" alt=""><img class="img-fluid for-dark" src="../assets/images/logo/logo_dark.png" alt=""></a>
                         <div class="back-btn"><i class="fa fa-angle-left"></i></div>
                         <div class="toggle-sidebar"><i class="status_toggle middle sidebar-toggle" data-feather="grid"> </i></div>
                     </div>
-                    <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="../assets/images/logo/logo-icon.png" alt=""></a></div>
+                    <div class="logo-icon-wrapper"><a href="index.html"><img class="img-fluid" src="<?= base_url(); ?>/assets/admin/images/logo/logo-icon.png" alt=""></a></div>
                     <nav class="sidebar-main">
                         <div class="left-arrow" id="left-arrow"><i data-feather="arrow-left"></i></div>
                         <div id="sidebar-menu">
                             <ul class="sidebar-links" id="simple-bar">
-                                <li class="back-btn"><a href="index.html"><img class="img-fluid" src="../assets/images/logo/logo-icon.png" alt=""></a>
+                                <li class="back-btn"><a href="index.html"><img class="img-fluid" src="<?= base_url(); ?>/assets/admin/images/logo/logo-icon.png" alt=""></a>
                                     <div class="mobile-back text-end"><span>Back</span><i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
                                 </li>
                                 <li class="sidebar-main-title">
