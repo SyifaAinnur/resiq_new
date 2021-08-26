@@ -378,9 +378,9 @@
                                     </div>
                                 </li>
                                 <li class="sidebar-list">
-                                    <label class="badge badge-danger">New</label><a class="sidebar-link sidebar-title" href="#"><i data-feather="box"></i><span>Project </span></a>
+                                    <label class="badge badge-danger">New</label><a class="sidebar-link sidebar-title" href="#"><i data-feather="box"></i><span>Quisioner</span></a>
                                     <ul class="sidebar-submenu">
-                                        <li><a href="projects.html">Project List</a></li>
+                                        <li><a href="<?= base_url('admin/quisioner'); ?>">Quisioner</a></li>
                                         <li><a href="projectcreate.html">Create new</a></li>
                                     </ul>
                                 </li>

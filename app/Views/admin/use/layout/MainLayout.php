@@ -27,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/admin/css/vendors/animate.css">
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/admin/css/vendors/chartist.css">
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/admin/css/vendors/date-picker.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/admin/css/vendors/datatables.css">
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>/assets/admin/css/vendors/bootstrap.css">
@@ -88,6 +89,7 @@
     <script src="<?= base_url(); ?>/assets/admin/js/typeahead-search/handlebars.js"></script>
     <script src="<?= base_url(); ?>/assets/admin/js/typeahead-search/typeahead-custom.js"></script>
     <script src="<?= base_url(); ?>/assets/admin/js/tooltip-init.js"></script>
+    <script src="<?= base_url(); ?>//assets/admin/js/datatable/datatables/jquery.dataTables.min.js"></script>
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
     <script src="<?= base_url(); ?>/assets/admin/js/script.js"></script>
