@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resiq.id</title>
     <!-- Favicon -->
-    <link rel="icon" href="assets/assets-landing/images/favicon.png">
+    <link rel="icon" href="assets/images/favicon.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
@@ -148,7 +148,7 @@
                     <div class="breadcrumb-btn">
                         <a class="d-none"
                              data-fancybox="gallery"
-                             data-src="assets/assets-landing/images/destination-img2.jpg"
+                             data-src="assets/images/destination-img2.jpg"
                              data-caption="Showing image - 02"
                              data-speed="700"></a>
                     </div><!-- end breadcrumb-btn -->
