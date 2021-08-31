@@ -52,9 +52,7 @@
                 <div class="col-lg-3 responsive-column">
                     <div class="footer-item">
                         <div class="footer-logo padding-bottom-30px">
-                            <a href="index.php" class="foot__logo">
-                                <h1>Resiq.id</h1>
-                            </a>
+                            <a href="index.php" class="foot__logo"><h1>Resiq.id</h1></a>
                         </div><!-- end logo -->
                         <p class="footer__desc">Produk hasil karya mahasiswa Fakultas Teknik Universitas Dian Nuswantoro</p>
                         <ul class="list-items pt-3">
@@ -132,10 +130,9 @@
                         <ul class="social-profile">
                             <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
                             <li><a href="#"><i class="lab la-twitter"></i></a></li>
-                            <li><a href="#"><i class="lab la-instagram"></i></a></li>
-                            <li><a href="#"><i class="lab la-youtube"></i></a></li>
+                            <li><a href="#"><i class="lab la-instagram"></i></a></li>                            <li><a href="#"><i class="lab la-youtube"></i></a></li>
                         </ul>
-                    </div>
+                    </div>      
                 </div><!-- end col-lg-4 -->
                 <!-- end col-lg-5 -->
             </div><!-- end row -->
