@@ -139,7 +139,7 @@
                 <div class="icon-box">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/Garansi.png" width="70%">
+							<img src="assets/images/Garansi.png" width="70%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -152,7 +152,7 @@
                 <div class="icon-box margin-top-50px">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/layanan.png" width="70%"> 
+							<img src="assets/images/layanan.png" width="70%"> 
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -165,7 +165,7 @@
                 <div class="icon-box">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/jasakirim.png" width="70%">
+							<img src="assets/images/jasakirim.png" width="70%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -184,25 +184,37 @@
 <div class="section-block"></div>
 
 <!-- ================================
+    START CTA AREA
+================================= -->
+<section class="cta-area padding-top-100px padding-bottom-180px text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2 class="sec__title text-white line-height-55">Produk Resiq.id</h2>
+                </div><!-- end section-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+    <svg class="cta-svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-31.31,170.22 C164.50,33.05 334.36,-32.06 547.11,196.88 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+</section><!-- end cta-area -->
+<!-- ================================
+    END CTA AREA
+================================= -->
+
+<!-- ================================
     START PRODUK AREA
 ================================= -->
 <section class="car-area section-bg section-padding ">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-heading text-center">
-                    <h2 class="sec__title">Produk</h2>
-                </div><!-- end section-heading -->
-            </div><!-- end col-lg-12 -->
-        </div><!-- end row -->
         <div class="row padding-top-50px">
             <div class="col-lg-12">
                 <div class="car-wrap">
                     <div class="car-carousel carousel-action">
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving2.jpg" alt="">
+                                <a href="produk1.php" class="d-block">
+                                    <img src="assets/images/produk/paving2.jpg" alt="">
                                 </a>
                                 <span class="badge">Bestseller</span>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
@@ -211,20 +223,20 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Rumput</a></h3>
+                                <h3 class="card-title"><a href="produk1.php">Paving Block Rumput</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 22.000 - Rp 24.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk1.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving3.jpg" alt="car-img">
+                                <a href="produk2.php" class="d-block">
+                                    <img src="assets/images/produk/paving3.jpg" alt="">
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                                     <i class="la la-heart-o"></i>
@@ -232,20 +244,20 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Bata</a></h3>
+                                <h3 class="card-title"><a href="produk2.php">Paving Block Bata</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 125.000 - Rp 195.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk2.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving4.jpg" alt="car-img">
+                                <a href="produk3.php" class="d-block">
+                                    <img src="assets/images/produk/paving4.jpg" alt="">
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                                     <i class="la la-heart-o"></i>
@@ -253,20 +265,20 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Cacing</a></h3>
+                                <h3 class="card-title"><a href="produk3.php">Paving Block Cacing</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 125.000 - Rp 135.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk3.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving5.jpg" alt="car-img">
+                                <a href="produk4.php" class="d-block">
+                                    <img src="assets/images/produk/paving5.jpg" alt="">
                                 </a>
                                 <span class="badge">Bestseller</span>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
@@ -275,20 +287,20 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Segi Enam (Hexagon)</a></h3>
+                                <h3 class="card-title"><a href="produk4.php">Paving Block Segi Enam (Hexagon)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                 <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 135.000 - Rp 150.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk4.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving6.jpg" alt="car-img">
+                                <a href="produk5.php" class="d-block">
+                                    <img src="assets/images/produk/paving6.jpg" alt="">
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                                     <i class="la la-heart-o"></i>
@@ -296,20 +308,20 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Topi (Uskup)</a></h3>
+                                <h3 class="card-title"><a href="produk5.php">Paving Block Topi (Uskup)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 29.700 - Rp 33.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk5.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
                         <div class="card-item car-card mb-0">
                             <div class="card-img">
-                                <a href="car-single.html" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving7.jpg" alt="car-img">
+                                <a href="produk6.php" class="d-block">
+                                    <img src="assets/images/produk/paving7.jpg" alt="">
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                                     <i class="la la-heart-o"></i>
@@ -317,13 +329,13 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="car-single.html">Paving Block Kanstin (Kansteen)</a></h3>
+                                <h3 class="card-title"><a href="produk6.php">Paving Block Kanstin (Kansteen)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 23.000 - Rp 39.000 </span>
                                     </p>
-                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="produk6.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                             </div>
@@ -336,132 +348,6 @@
 </section><!-- end car-area -->
 <!-- ================================
     END PRODUK AREA
-================================= -->
-
-<!-- ================================
-    START CTA AREA
-================================= -->
-<section class="cta-area padding-top-100px padding-bottom-180px text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-heading">
-                    <h2 class="sec__title text-white line-height-55">What They Said?</h2>
-                </div><!-- end section-heading -->
-            </div><!-- end col-lg-12 -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-    <svg class="cta-svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M-31.31,170.22 C164.50,33.05 334.36,-32.06 547.11,196.88 L500.00,150.00 L0.00,150.00 Z"></path></svg>
-</section><!-- end cta-area -->
-<!-- ================================
-    END CTA AREA
-================================= -->
-
-<!-- ================================
-       START TESTIMONIAL AREA
-================================= -->
-<section class="testimonial-area section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="section-heading">
-                    <h2 class="sec__title line-height-50" style="margin-top:70px">Apa Kata Mereka Tentang <b>Resiq.id?</b></h2>
-                    <div class="garis"></div><br>
-                </div><!-- end section-heading -->
-            </div><!-- end col-lg-4 -->
-            <div class="col-lg-8">
-                <div class="testimonial-carousel carousel-action">
-                    <div class="testimonial-card">
-                        <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat non proident des.</p>
-                        </div>
-                        <div class="author-content d-flex align-items-center">
-                            <div class="author-img">
-                                <img src="assets/assets-landing/images/team8.jpg" alt="testimonial image">
-                            </div>
-                            <div class="author-bio">
-                                <h4 class="author__title">Leroy Bell</h4>
-                                <span class="author__meta">United States</span>
-                                <span class="ratings d-flex align-items-center">
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div><!-- end testimonial-card -->
-                    <div class="testimonial-card">
-                        <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat non proident des.</p>
-                        </div>
-                        <div class="author-content d-flex align-items-center">
-                            <div class="author-img">
-                                <img src="assets/assets-landing/images/team9.jpg" alt="testimonial image">
-                            </div>
-                            <div class="author-bio">
-                                <h4 class="author__title">Richard Pam</h4>
-                                <span class="author__meta">Canada</span>
-                                <span class="ratings d-flex align-items-center">
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div><!-- end testimonial-card -->
-                    <div class="testimonial-card">
-                        <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat non proident des.</p>
-                        </div>
-                        <div class="author-content d-flex align-items-center">
-                            <div class="author-img">
-                                <img src="assets/assets-landing/images/team10.jpg" alt="testimonial image">
-                            </div>
-                            <div class="author-bio">
-                                <h4 class="author__title">Luke Jacobs</h4>
-                                <span class="author__meta">Australia</span>
-                                <span class="ratings d-flex align-items-center">
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div><!-- end testimonial-card -->
-                    <div class="testimonial-card">
-                        <div class="testi-desc-box">
-                            <p class="testi__desc">Excepteur sint occaecat cupidatat non proident sunt in culpa officia deserunt mollit anim laborum sint occaecat cupidatat non proident. Occaecat cupidatat non proident des.</p>
-                        </div>
-                        <div class="author-content d-flex align-items-center">
-                            <div class="author-img">
-                                <img src="assets/assets-landing/images/team8.jpg" alt="testimonial image">
-                            </div>
-                            <div class="author-bio">
-                                <h4 class="author__title">Chulbul Panday</h4>
-                                <span class="author__meta">Italy</span>
-                                <span class="ratings d-flex align-items-center">
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                    <i class="la la-star"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div><!-- end testimonial-card -->
-                </div><!-- end testimonial-carousel -->
-            </div><!-- end col-lg-8 -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</section><!-- end testimonial-area -->
-<!-- ================================
-       START TESTIMONIAL AREA
 ================================= -->
 
 <!-- ================================
@@ -482,17 +368,17 @@
                     </ul>
                     <div class="btn-box padding-top-30px">
                         <a href="#" class="d-inline-block mr-3">
-                            <img src="assets/assets-landing/images/app-store.png" alt="">
+                            <img src="assets/images/app-store.png" alt="">
                         </a>
                         <a href="#" class="d-inline-block">
-                            <img src="assets/assets-landing/images/google-play.png" alt="">
+                            <img src="assets/images/google-play.png" alt="">
                         </a>
                     </div><!-- end btn-box -->
                 </div>
             </div><!-- end col-lg-6 -->
             <div class="col-lg-6">
                 <div class="mobile-img">
-                    <img src="assets/assets-landing/images/mobile-app.png" alt="mobile-img">
+                    <img src="assets/images/mobile-app.png" alt="mobile-img">
                 </div>
             </div><!-- end col-lg-5 -->
         </div><!-- end row -->
@@ -500,11 +386,6 @@
 </section><!-- end mobile-app -->
 <!-- ================================
     END MOBILE AREA
-================================= -->
-<br><br>
-
-<!-- ================================
-       START FOOTER AREA
 ================================= -->
 
 <!-- ================================

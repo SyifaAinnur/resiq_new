@@ -6,117 +6,111 @@
 
 <?= $this->section('content') ?>
 <!-- ================================
-    START BREADCRUMB TOP BAR
-================================= -->
-<section class="breadcrumb-top-bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="breadcrumb-list breadcrumb-top-list">
-                    <ul class="list-items bg-transparent radius-none p-0">
-                        <li><a href="index.php">Home</a></li>
-                        <li>questioner</li>
-                        <li>Pemulung(IPI)</li>
-                    </ul>
-                </div><!-- end breadcrumb-list -->
-            </div><!-- end col-lg-12 -->
-        </div><!-- end row -->
-    </div><!-- end container -->
-</section><!-- end breadcrumb-top-bar -->
-<!-- ================================
-    END BREADCRUMB TOP BAR
-================================= -->
-
-<!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-<section class="breadcrumb-area bread-bg-2 py-0">
+<section class="breadcrumb-area bread-bg">
     <div class="breadcrumb-wrap">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-btn">
-                        <a class="d-none"
-                             data-fancybox="gallery"
-                             data-src="assets/assets-landing/images/destination-img2.jpg"
-                             data-caption="Showing image - 02"
-                             data-speed="700"></a>
-                    </div><!-- end breadcrumb-btn -->
-                </div><!-- end col-lg-12 -->
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="breadcrumb-content">
+                        <div class="section-heading">
+                        </div>
+                    </div><!-- end breadcrumb-content -->
+                </div><!-- end col-lg-6 -->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end breadcrumb-wrap -->
+    <div class="bread-svg-box">
+        <svg class="bread-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><polygon points="100 0 50 10 0 0 0 10 100 10"></polygon></svg>
+    </div><!-- end bread-svg -->
 </section><!-- end breadcrumb-area -->
 <!-- ================================
     END BREADCRUMB AREA
 ================================= -->
 
 <!-- ================================
-    START Data QUIS DETAIL AREA
+    START BOOKING AREA
 ================================= -->
-<section class="tour-detail-area padding-bottom-90px">
-    <div class="single-content-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4" style="margin-left: 140px;">
-                    <div class="sidebar single-content-sidebar mb-0" >
-                        <div class="sidebar-widget single-content-widget" style="width: 900px">
-                            <div class="sidebar-widget-item">
-                                <div class="sidebar-book-title-wrap mb-3">
-                                    <h2 style="text-align: center">QUESTIONER</h2>
-                                </div>
-                            </div><!-- end sidebar-widget-item -->
-                            <div class="sidebar-widget-item">
-                                <div class="contact-form-action">
-                                    <form method="post">
-                                        <div class="input-box">
-                                            <label class="label-text"><b>Nama</b></label>
-                                                <div class="form-group">
-                                                    <span class="la la-user form-icon"></span>
-                                                    <input class="form-control" type="text" name="text" placeholder="Nama">
-                                                </div>
-                                            </div>
-                                            <div class="input-box">
-                                                <label class="label-text"><b>Usia</b></label>
-                                                <div class="form-group">
-                                                    <span class="la la-user form-icon"></span>
-                                                    <input class="form-control" type="usia" name="usia" placeholder="Usia">
-                                                </div>
-                                            </div>
-                                            <div class="input-box">
-                                                <label class="label-text"><b>Alamat</b></label>
-                                                <div class="form-group">
-                                                    <span class="la la-pencil form-icon"></span>
-                                                    <textarea class="message-control form-control" name="alamat" placeholder="Alamat"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="input-box">
-                                                <label class="label-text"><b>Pekerjaan</b></label>
-                                                <div class="form-group">
-                                                    <span class="la la-envelope-o form-icon"></span>
-                                                    <input class="form-control" type="pekerjaan" name="pekerjaan" placeholder="Pekerjaan">
-                                                </div>
-                                            </div>
-                                            <div class="input-box">
-                                                <label class="label-text"><b>Jenis Sampah</b></label>
-                                                <form action="proses.php" method="get">
-                                                    <p>Organik</p>
-                                                    <input type='radio' name='jenis_sampah_anorganik' value='ya' /> Ya <input type='radio' name='jenis_sampah_anorganik' value='tidak' /> Tidak
-                                                </form>       
-                                                <form action="proses.php" method="get">
-                                                    <p>An-Organik</p>
-                                                    <input type='radio' name='jenis_sampah_anorganik' value='ya' /> Ya <input type='radio' name='jenis_sampah_anorganik' value='tidak' /> Tidak
-                                                </form>
-                                            </div><br><br>
+<section class="booking-area padding-top-100px padding-bottom-70px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="form-box">
+                    <div class="form-title-wrap">
+                    <h2 style="text-align: center">DATA DIRI</h2>
+                    </div><!-- form-title-wrap -->
+                    <div class="form-content ">
+                        <div class="contact-form-action">
+                            <form method="post">
+                                <div class="input-box">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Nama</b></label>
+                                        <div class="form-group">
+                                            <span class="la la-user form-icon"></span>
+                                            <input class="form-control" type="text" name="text" placeholder="Nama">
                                         </div>
-                                    </form>
-                                </div>
-                                <div class="sidebar-widget-item">
-                                    <div class="sidebar-book-title-wrap mb-3">
-                                        <h2 style="text-align: center">PERTANYAAN</h2>
                                     </div>
-                                </div>
-                                <div class="contact-form-action">
+                                </div><!-- end col-lg-6 -->
+                                <div class="">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Usia</b></label>
+                                        <div class="form-group">
+                                            <span class="la la-user form-icon"></span>
+                                            <input class="form-control" type="email" name="email" placeholder="Usia">
+                                        </div>
+                                    </div>
+                                </div><!-- end col-lg-6 -->
+                                <div class="input-box">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Pekerjaan</b></label>
+                                        <div class="form-group">
+                                            <span class="la la-envelope-o form-icon"></span>
+                                            <input class="form-control" type="text" name="text" placeholder="Pekerjaan">
+                                        </div>
+                                    </div>
+                                </div><!-- end col-lg-6 -->
+                                <div class="input-box">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Alamat</b></label>
+                                        <div class="form-group">
+                                            <span class="la la-map-marked form-icon"></span>
+                                            <input class="form-control" type="text" name="text" placeholder="Alamat">
+                                        </div>
+                                    </div>
+                                </div><!-- end col-lg-12 -->
+                                <div class="input-box">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Jenis Sampah</b></label>
+                                    <div class="form-group">
+                                            <div class="select-contain w-auto">
+                                                <select class="select-contain-select">
+                                                    <option value="select-country">Pilih Sampah</option>
+                                                    <option value="Afghanistan">Organik</option>
+                                                    <option value="Åland Islands">An Organik</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col-lg-6 -->
+                                <div class="input-box">
+                                    <div class="input-box">
+                                        <label class="label-text"><b>Sudah Familiar Menggunakan Smartphone?</b></label>
+                                        <div class="form-group">
+                                            <div class="select-contain w-auto">
+                                                <select class="select-contain-select">
+                                                    <option value="country-code">Pilih Jawaban</option>
+                                                    <option value="1">Sudah</option>
+                                                    <option value="2">Belum</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end col-lg-6 --><br>
+                                <div class="form-title-wrap">
+                                    <h2 style="text-align: center">PERTANYAAN</h2>
+                                </div><!-- form-title-wrap -->
+                                <div class="form-content ">
                                     <form method="post">
                                         <div class="input-box">
                                             <label class="label-text"><b>1. Jenis sampah yang dihasilkan / dikumpulkan (organik / anorganik)?</b></label>
@@ -145,7 +139,7 @@
                                         </div>
 
                                         <div class="input-box">
-                                            <label class="label-text"><b>4. Adakah ada proses pemilahan sampah yang Anda lakukan sebelum sampah rumah tangga dibuang ditempat sampah?</b></label>
+                                            <label class="label-text"><b>4. Adakah ada proses pemilahan sampah yang Anda lakukan ?</b></label>
                                             <div class="form-group">
                                                 <div class="select-contain w-auto">
                                                     <select class="select-contain-select">
@@ -177,15 +171,7 @@
                                         </div>
 
                                         <div class="input-box">
-                                            <label class="label-text"><b>7. Berapa jumlah pemulung yang bertugas mengambil / mengangkut sampah setiap harinya (atau pegawai yang anda miliki)?</b></label>
-                                            <div class="form-group">
-                                                <span class="la la-pencil form-icon"></span>
-                                                <input class="form-control" type="text" name="text" placeholder=" ">
-                                            </div>
-                                        </div>
-
-                                        <div class="input-box">
-                                            <label class="label-text"><b>8. Berapa kali setiap minggu pemulung bertugas mengambil sampah mengambil sampah di tempat sampah? (setiap harikah?</b></label>
+                                            <label class="label-text"><b>7. Berapa jumlah nasabah yang menyerahkan sampahsetiap harinya (atau nasabah yang anda miliki)?</b></label>
                                             <div class="form-group"> 
                                                 <span class="la la-pencil form-icon"></span>   
                                                 <input class="form-control" type="text" name="text" placeholder=" "><br>
@@ -193,7 +179,15 @@
                                         </div>
 
                                         <div class="input-box">
-                                            <label class="label-text"><b>9. Berapa biaya yang Anda bayarkan untuk harga setiap Kg sampah yang dikumpulkan pemulung?</b></label>
+                                            <label class="label-text"><b>8. Berapa kali setiap harinya rata-rata nasabah yang menyetorkan sampah ke bank sampah Anda? (setiap harikah?</b></label>
+                                            <div class="form-group"> 
+                                                <span class="la la-pencil form-icon"></span>   
+                                                <input class="form-control" type="text" name="text" placeholder=" "><br>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-box">
+                                            <label class="label-text"><b>9. Berapa biaya yang Anda bayarkan untuk harga setiap Kg sampah yang dikumpulkan nasabah?</b></label>
                                             <div class="form-group">
                                                 <span class="la la-pencil form-icon"></span>    
                                                 <input class="form-control" type="text" name="text" placeholder=" ">
@@ -219,17 +213,33 @@
                                             <button type="submit" class="theme-btn">Kirim</button>
                                     </form>
                                 </div>
+                            </form>
+                        </div><!-- end contact-form-action -->
+                    </div>
+                </div><!-- end form-box -->
+            </div><!-- end col-lg-8 -->
+            <div class="col-lg-4">
+                <div class="sidebar-widget single-content-widget">
+                    <h3 class="title stroke-shape">Organized by</h3>
+                    <div class="author-content">
+                        <div class="d-flex">
+                            <div class="author-img">
+                                <img src="assets/images/logo-resiq.png" alt="">
                             </div>
-                            <!-- end sidebar-widget-item -->
-                        </div><!-- end sidebar-widget -->
-                    </div><!-- end sidebar -->
-                </div><!-- end col-lg-4 -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end single-content-box -->
-</section><!-- end tour-detail-area -->
+                            <div class="author-bio">
+                                <h4 class="author__title"><a href="#">Resiq.id</a></h4>
+                                <span class="author__meta">Since 2021</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end sidebar-widget -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end booking-area -->
 <!-- ================================
-    END Data QUIS DETAIL AREA
+    END BOOKING AREA
 ================================= -->
 
 <div class="section-block"></div>

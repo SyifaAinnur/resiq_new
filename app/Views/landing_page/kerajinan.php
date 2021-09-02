@@ -60,7 +60,7 @@
                 <div class="card-item car-card mb-0">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan1.jpg" alt="">
+                            <img src="assets/images/produk/kerajinan1.jpg" alt="">
                         </a>
                         <span class="badge">Bestseller</span>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
@@ -84,7 +84,7 @@
                 <div class="card-item car-card mb-0">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan6.jpg" width="30%" alt="">
+                            <img src="assets/images/produk/kerajinan6.jpg" width="30%" alt="">
                         </a>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                             <i class="la la-heart-o"></i>
@@ -107,7 +107,7 @@
                 <div class="card-item car-card mb-0">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan3.png" alt="car-img">
+                            <img src="assets/images/produk/kerajinan3.png" alt="car-img">
                         </a>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                             <i class="la la-heart-o"></i>
@@ -130,7 +130,7 @@
                 <div class="card-item cruise--card">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan4.jpg" width="50px" alt="car-img">
+                            <img src="assets/images/produk/kerajinan4.jpg" width="50px" alt="car-img">
                         </a>
                         <span class="badge">Bestseller</span>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
@@ -154,7 +154,7 @@
                 <div class="card-item cruise--card">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan2.jpg" width="100px" alt="car-img">
+                            <img src="assets/images/produk/kerajinan2.jpg" width="100px" alt="car-img">
                         </a>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                             <i class="la la-heart-o"></i>
@@ -177,7 +177,7 @@
                 <div class="card-item cruise--card">
                     <div class="card-img">
                         <a href="car-single.html" class="d-block">
-                            <img src="<?= base_url(); ?>/assets/assets-landing/images/produk/kerajinan7.jpg" width="100px" alt="">
+                            <img src="assets/images/produk/kerajinan7.jpg" width="100px" alt="">
                         </a>
                         <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
                             <i class="la la-heart-o"></i>
@@ -223,7 +223,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb text-color-2">
                         <span class="icon">
-							<img src="<?= base_url(); ?>/assets/assets-landing/images/Garansi.png" width="90%">
+							<img src="assets/images/Garansi.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -236,7 +236,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-2 text-color-3">
                         <span class="icon">
-							<img src="<?= base_url(); ?>/assets/assets-landing/images/layanan.png" width="85%"> 
+							<img src="assets/images/layanan.png" width="85%"> 
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -249,7 +249,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-3 text-color-4">
                         <span class="icon">
-							<img src="<?= base_url(); ?>/assets/assets-landing/images/jasakirim.png" width="90%">
+							<img src="assets/images/jasakirim.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
