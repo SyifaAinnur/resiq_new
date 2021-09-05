@@ -1,4 +1,3 @@
-
 <!-- ================================
          END HEADER AREA
 ================================= -->
@@ -22,7 +21,9 @@
         </div><!-- end container -->
     </div><!-- end breadcrumb-wrap -->
     <div class="bread-svg-box">
-        <svg class="bread-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><polygon points="100 0 50 10 0 0 0 10 100 10"></polygon></svg>
+        <svg class="bread-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none">
+            <polygon points="100 0 50 10 0 0 0 10 100 10"></polygon>
+        </svg>
     </div><!-- end bread-svg -->
 </section><!-- end breadcrumb-area -->
 <!-- ================================
@@ -38,7 +39,7 @@
             <div class="col-lg-8">
                 <div class="form-box">
                     <div class="form-title-wrap">
-                    <h2 style="text-align: center">DATA DIRI</h2>
+                        <h2 style="text-align: center">DATA DIRI</h2>
                     </div><!-- form-title-wrap -->
                     <div class="form-content ">
                         <div class="contact-form-action">
@@ -82,7 +83,7 @@
                                 <div class="input-box">
                                     <div class="input-box">
                                         <label class="label-text"><b>Jenis Sampah</b></label>
-                                    <div class="form-group">
+                                        <div class="form-group">
                                             <div class="select-contain w-auto">
                                                 <select class="select-contain-select">
                                                     <option value="select-country">Pilih Sampah</option>
@@ -153,7 +154,7 @@
                                         <div class="input-box">
                                             <label class="label-text"><b>5. Jika ada proses pemilahan, sampah apa saja yang Anda pilah?</b></label>
                                             <div class="form-group">
-                                                <span class="la la-pencil form-icon"></span>    
+                                                <span class="la la-pencil form-icon"></span>
                                                 <input class="form-control" type="text" name="text" placeholder=" ">
                                             </div>
                                         </div>
@@ -172,16 +173,16 @@
 
                                         <div class="input-box">
                                             <label class="label-text"><b>7. Berapa jumlah nasabah yang menyerahkan sampahsetiap harinya (atau nasabah yang anda miliki)?</b></label>
-                                            <div class="form-group"> 
-                                                <span class="la la-pencil form-icon"></span>   
+                                            <div class="form-group">
+                                                <span class="la la-pencil form-icon"></span>
                                                 <input class="form-control" type="text" name="text" placeholder=" "><br>
                                             </div>
                                         </div>
 
                                         <div class="input-box">
                                             <label class="label-text"><b>8. Berapa kali setiap harinya rata-rata nasabah yang menyetorkan sampah ke bank sampah Anda? (setiap harikah?</b></label>
-                                            <div class="form-group"> 
-                                                <span class="la la-pencil form-icon"></span>   
+                                            <div class="form-group">
+                                                <span class="la la-pencil form-icon"></span>
                                                 <input class="form-control" type="text" name="text" placeholder=" "><br>
                                             </div>
                                         </div>
@@ -189,7 +190,7 @@
                                         <div class="input-box">
                                             <label class="label-text"><b>9. Berapa biaya yang Anda bayarkan untuk harga setiap Kg sampah yang dikumpulkan nasabah?</b></label>
                                             <div class="form-group">
-                                                <span class="la la-pencil form-icon"></span>    
+                                                <span class="la la-pencil form-icon"></span>
                                                 <input class="form-control" type="text" name="text" placeholder=" ">
                                             </div>
                                         </div>
@@ -204,13 +205,13 @@
 
                                         <div class="input-box">
                                             <label class="label-text"><b>11. Berapakah jarak tempat penampungan sampah Anda dengan TPA (tempat Pembuangan Sampah Akhir) dalam satuan meter?</b></label>
-                                            <div class="form-group">    
+                                            <div class="form-group">
                                                 <span class="la la-pencil form-icon"></span>
                                                 <input class="form-control" type="text" name="text" placeholder=" ">
                                             </div>
                                         </div>
 
-                                            <button type="submit" class="theme-btn">Kirim</button>
+                                        <button type="submit" class="theme-btn">Kirim</button>
                                     </form>
                                 </div>
                             </form>
@@ -260,7 +261,7 @@
 
 <!-- end modal-shared -->
 <div class="modal-popup">
-    <div class="modal fade" id="signupPopupForm" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal fade" id="signupPopupForm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -325,7 +326,7 @@
 
 <!-- end modal-shared -->
 <div class="modal-popup">
-    <div class="modal fade" id="loginPopupForm" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal fade" id="loginPopupForm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -385,7 +386,7 @@
 
 <!-- end modal-shared -->
 <div class="modal-popup">
-    <div class="modal fade" id="replayPopupForm" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal fade" id="replayPopupForm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">

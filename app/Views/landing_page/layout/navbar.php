@@ -55,8 +55,8 @@
                                     <li>
                                         <a href="#">Produk Luaran <i class="la la-angle-down"></i></a>
                                         <ul class="dropdown-menu-item">
-                                            <li><a href="paving.php">Paving Blok</a></li>
-                                            <li><a href="kerajinan.php">Kerajinan</a></li>
+                                            <li><a href="<?= base_url('produk_luaran/paving'); ?>">Paving Blok</a></li>
+                                            <li><a href="<?= base_url('produk_luaran/kerajinan'); ?>">Kerajinan</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -70,9 +70,9 @@
                                     <li>
                                         <a href="#">questioner <i class="la la-angle-down"></i></a>
                                         <ul class="dropdown-menu-item">
-                                            <li><a href="rumahTangga.php">Rumah Tangga </a></li>
-                                            <li><a href="pemasok.php">Pengepul </a></li>
-                                            <li><a href="pemulung.php">Pemulung(IPI) </a></li>
+                                            <li><a href="<?= base_url('quisioner/rumah_tangga'); ?>">Rumah Tangga </a></li>
+                                            <li><a href="<?= base_url('quisioner/pengepul'); ?>">Pengepul </a></li>
+                                            <li><a href="<?= base_url('quisioner/pemulung'); ?>">Pemulung(IPI) </a></li>
                                         </ul>
                                     </li>
                                 </ul>
