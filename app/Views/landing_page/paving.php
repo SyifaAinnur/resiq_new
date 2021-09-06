@@ -42,154 +42,188 @@
 <!-- ================================
     START PRODUK AREA
 ================================= -->
-<section class="car-area section-bg section-padding ">
+<section class="card-area padding-top-100px padding-bottom-90px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="section-heading text-center">
-                    <h2 class="sec__title">Produk</h2>
-                </div><!-- end section-heading -->
+                <div class="filter-wrap margin-bottom-30px">
+                    <div class="filter-top d-flex align-items-center justify-content-between pb-4">
+                        <div>
+                            <h3 class="title font-size-24">PRODUK</h3>
+                        </div>
+                    </div><!-- end filter-top -->
+                </div><!-- end filter-wrap -->
             </div><!-- end col-lg-12 -->
         </div><!-- end row -->
-        <div class="row padding-top-50px">
-            <div class="col-lg-12">
-                <div class="car-wrap">
-                    <div class="car-carousel carousel-action">
-                        <div class="card-item car-card mb-0">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="produk1.php" class="d-block">
                                     <img src="assets/images/produk/paving2.jpg" alt="">
+                                    <span class="badge">Bestseller</span>
                                 </a>
-                                <span class="badge">Bestseller</span>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk1.php">Paving Block Rumput</a></h3>
-                                <div class="card-price d-flex align-items-center justify-content-between">
-                                    <p>
-                                        <span class="price__from">Mulai dari</span><br>
-                                        <span class="price__num">Rp 22.000 - Rp 24.000 </span>
-                                    </p>
-                                    <a href="produk1.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- end card-item -->
-                        <div class="card-item car-card mb-0">
-                            <div class="card-img">
-                                <a href="produk2.php" class="d-block">
-                                    <img src="assets/images/produk/paving3.jpg" alt="">
-                                </a>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk2.php">Paving Block Bata</a></h3>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Bata</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 125.000 - Rp 195.000 </span>
                                     </p>
-                                    <a href="produk2.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
-                        <div class="card-item car-card mb-0">
+                    </div><!-- end col-lg-6 -->
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
                             <div class="card-img">
-                                <a href="produk3.php" class="d-block">
-                                    <img src="assets/images/produk/paving4.jpg" alt="">
+                                <a href="cruise-details.html" class="d-block">
+                                    <img src="assets/images/produk/paving3.jpg" alt="">
+                                    <span class="badge">Featured</span>
                                 </a>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk3.php">Paving Block Cacing</a></h3>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Bata</a></h3>
+                                <div class="card-price d-flex align-items-center justify-content-between">
+                                    <p>
+                                        <span class="price__from">Mulai dari</span><br>
+                                        <span class="price__num">Rp 125.000 - Rp 195.000 </span>
+                                    </p>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- end card-item -->
+                    </div><!-- end col-lg-6 -->
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
+                            <div class="card-img">
+                                <a href="cruise-details.html" class="d-block">
+                                    <img src="assets/images/produk/paving4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-meta">Kategori Paving Block</p>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Cacing</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 125.000 - Rp 135.000 </span>
                                     </p>
-                                    <a href="produk3.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
-                        <div class="card-item car-card mb-0">
+                    </div><!-- end col-lg-6 -->
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
                             <div class="card-img">
-                                <a href="produk4.php" class="d-block">
+                                <a href="cruise-details.html" class="d-block">
                                     <img src="assets/images/produk/paving5.jpg" alt="">
+                                    <span class="badge">Bestseller</span>
                                 </a>
-                                <span class="badge">Bestseller</span>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk4.php">Paving Block Segi Enam (Hexagon)</a></h3>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Segi Enam (Hexagon)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                 <p>
-                                        <span class="price__from">Mulai dari</span><br>
-                                        <span class="price__num">Rp 135.000 - Rp 150.000 </span>
-                                    </p>
-                                    <a href="produk4.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <span class="price__from">Mulai dari</span><br>
+                                    <span class="price__num">Rp 135.000 - Rp 150.000 </span>
+                                </p>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
-                        <div class="card-item car-card mb-0">
+                    </div><!-- end col-lg-6 -->
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
                             <div class="card-img">
-                                <a href="produk5.php" class="d-block">
+                                <a href="cruise-details.html" class="d-block">
                                     <img src="assets/images/produk/paving6.jpg" alt="">
                                 </a>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk5.php">Paving Block Topi (Uskup)</a></h3>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Topi (Uskup)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
                                         <span class="price__num">Rp 29.700 - Rp 33.000 </span>
                                     </p>
-                                    <a href="produk5.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
                         </div><!-- end card-item -->
-                        <div class="card-item car-card mb-0">
+                    </div><!-- end col-lg-6 -->
+                    <div class="col-lg-6 responsive-column">
+                        <div class="card-item cruise--card">
                             <div class="card-img">
-                                <a href="produk6.php" class="d-block">
+                                <a href="cruise-details.html" class="d-block">
                                     <img src="assets/images/produk/paving7.jpg" alt="">
+                                    <span class="badge">Featured</span>
                                 </a>
-                                <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Save for later">
-                                    <i class="la la-heart-o"></i>
-                                </div>
                             </div>
                             <div class="card-body">
                                 <p class="card-meta">Kategori Paving Block</p>
-                                <h3 class="card-title"><a href="produk6.php">Paving Block Kanstin (Kansteen)</a></h3>
+                                <h3 class="card-title"><a href="car-single.html">Paving Block Topi (Uskup)</a></h3>
                                 <div class="card-price d-flex align-items-center justify-content-between">
                                     <p>
                                         <span class="price__from">Mulai dari</span><br>
-                                        <span class="price__num">Rp 23.000 - Rp 39.000 </span>
+                                        <span class="price__num">Rp 29.700 - Rp 33.000 </span>
                                     </p>
-                                    <a href="produk6.php" class="btn-text">See details<i class="la la-angle-right"></i></a>
+                                    <a href="car-single.html" class="btn-text">See details<i class="la la-angle-right"></i></a>
                                 </div>
                             </div>
-                            </div>
                         </div><!-- end card-item -->
-                    </div><!-- end car-carousel -->
-                </div>
-            </div><!-- end col-lg-12 -->
+                    </div><!-- end col-lg-6 -->
+                </div><!-- end row -->
+            </div><!-- end col-lg-8 -->
+            <div class="col-lg-4">
+                <div class="sidebar-widget single-content-widget">
+                    <h3 class="title stroke-shape">Kenapa Resiq.id?</h3>
+                    <div class="sidebar-list">
+                        <ul class="list-items">
+                            <li><i class="la la-dollar icon-element mr-2"></i>Transaksi dan pembayaran mudah</li>
+                            <li><i class="la la-file-text icon-element mr-2"></i>Pengecekan oleh Quality Controll</li>
+                            <li><i class="la la-thumbs-up icon-element mr-2"></i>Kualitas barang dijamin</li>
+                        </ul>
+                    </div><!-- end sidebar-list -->
+                </div><!-- end sidebar-widget -->
+                <div class="sidebar-widget single-content-widget">
+                    <h3 class="title stroke-shape">Apakah ada pertanyaan?</h3>
+                    <p class="font-size-14 line-height-24">Jika Anda memiliki pertanyaan silahkan langsung hubungi nomor admin dibawah ini.</p>
+                    <div class="sidebar-list pt-3">
+                        <ul class="list-items">
+                            <li><i class="la la-phone icon-element mr-2"></i><a href="#">085x xxxx xxxx</a></li>
+                            <li><i class="la la-envelope icon-element mr-2"></i><a href="#">resiq@example.com</a></li>
+                        </ul>
+                    </div><!-- end sidebar-list -->
+                </div><!-- end sidebar-widget -->
+                <div class="sidebar-widget single-content-widget">
+                    <h3 class="title stroke-shape">Organized by</h3>
+                    <div class="author-content">
+                        <div class="d-flex">
+                            <div class="author-img">
+                                <img src="assets/images/logo-resiq.png" alt="">
+                            </div>
+                            <div class="author-bio">
+                                <h4 class="author__title"><a href="#">Resiq.id</a></h4>
+                                <span class="author__meta">Since 2021</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end sidebar-widget -->
+            </div><!-- end col-lg-4 -->
         </div><!-- end row -->
     </div><!-- end container -->
-</section><!-- end car-area -->
+</section><!-- end card-area -->
 <!-- ================================
     END PRODUK AREA
 ================================= -->
