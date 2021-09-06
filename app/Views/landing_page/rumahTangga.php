@@ -224,7 +224,7 @@
                     <div class="author-content">
                         <div class="d-flex">
                             <div class="author-img">
-                                <img src="assets/images/logo-resiq.png" alt="">
+                                <img src="assets/assets-landing/images/logo-resiq.png" alt="">
                             </div>
                             <div class="author-bio">
                                 <h4 class="author__title"><a href="#">Resiq.id</a></h4>

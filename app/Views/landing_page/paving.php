@@ -62,7 +62,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="produk1.php" class="d-block">
-                                    <img src="assets/images/produk/paving2.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving2.jpg" alt="">
                                     <span class="badge">Bestseller</span>
                                 </a>
                             </div>
@@ -83,7 +83,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/paving3.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving3.jpg" alt="">
                                     <span class="badge">Featured</span>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/paving4.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving4.jpg" alt="">
                                 </a>
                             </div>
                             <div class="card-body">
@@ -124,7 +124,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/paving5.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving5.jpg" alt="">
                                     <span class="badge">Bestseller</span>
                                 </a>
                             </div>
@@ -145,7 +145,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/paving6.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving6.jpg" alt="">
                                 </a>
                             </div>
                             <div class="card-body">
@@ -165,7 +165,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/paving7.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/paving7.jpg" alt="">
                                     <span class="badge">Featured</span>
                                 </a>
                             </div>
@@ -210,7 +210,7 @@
                     <div class="author-content">
                         <div class="d-flex">
                             <div class="author-img">
-                                <img src="assets/images/logo-resiq.png" alt="">
+                                <img src="assets/assets-landing/images/logo-resiq.png" alt="">
                             </div>
                             <div class="author-bio">
                                 <h4 class="author__title"><a href="#">Resiq.id</a></h4>
@@ -240,7 +240,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb text-color-2">
                         <span class="icon">
-							<img src="assets/images/Garansi.png" width="90%">
+							<img src="assets/assets-landing/images/Garansi.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -253,7 +253,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-2 text-color-3">
                         <span class="icon">
-							<img src="assets/images/layanan.png" width="85%"> 
+							<img src="assets/assets-landing/images/layanan.png" width="85%"> 
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -266,7 +266,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-3 text-color-4">
                         <span class="icon">
-							<img src="assets/images/jasakirim.png" width="90%">
+							<img src="assets/assets-landing/images/jasakirim.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">

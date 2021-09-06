@@ -62,7 +62,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="produk1.php" class="d-block">
-                                    <img src="assets/images/produk/kerajinan4.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/kerajinan4.jpg" alt="">
                                     <span class="badge">Bestseller</span>
                                 </a>
                             </div>
@@ -83,7 +83,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/kerajinan2.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/kerajinan2.jpg" alt="">
                                     <span class="badge">Featured</span>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/kerajinan6.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/kerajinan6.jpg" alt="">
                                 </a>
                             </div>
                             <div class="card-body">
@@ -124,7 +124,7 @@
                         <div class="card-item cruise--card">
                             <div class="card-img">
                                 <a href="cruise-details.html" class="d-block">
-                                    <img src="assets/images/produk/kerajinan1.jpg" alt="">
+                                    <img src="assets/assets-landing/images/produk/kerajinan1.jpg" alt="">
                                     <span class="badge">Bestseller</span>
                                 </a>
                             </div>
@@ -169,7 +169,7 @@
                     <div class="author-content">
                         <div class="d-flex">
                             <div class="author-img">
-                                <img src="assets/images/logo-resiq.png" alt="">
+                                <img src="assets/assets-landing/images/logo-resiq.png" alt="">
                             </div>
                             <div class="author-bio">
                                 <h4 class="author__title"><a href="#">Resiq.id</a></h4>
@@ -199,7 +199,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb text-color-2">
                         <span class="icon">
-							<img src="assets/images/Garansi.png" width="90%">
+							<img src="assets/assets-landing/images/Garansi.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -212,7 +212,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-2 text-color-3">
                         <span class="icon">
-							<img src="assets/images/layanan.png" width="85%"> 
+							<img src="assets/assets-landing/images/layanan.png" width="85%"> 
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -225,7 +225,7 @@
                 <a href="#" class="icon-box icon-layout-2 d-flex">
                     <div class="info-icon flex-shrink-0 bg-rgb-3 text-color-4">
                         <span class="icon">
-							<img src="assets/images/jasakirim.png" width="90%">
+							<img src="assets/assets-landing/images/jasakirim.png" width="90%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
