@@ -54,7 +54,7 @@
                                 </div><!-- end col-lg-6 -->
                                 <div class="">
                                     <div class="input-box">
-                                        <label class="label-text"><b>Usia</b></label>
+                                        <label class="label-text"><b>Usiajgj</b></label>
                                         <div class="form-group">
                                             <span class="la la-user form-icon"></span>
                                             <input class="form-control" type="email" name="email" placeholder="Usia">
