@@ -11,7 +11,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
-    <title>Cuba - Premium Admin Template</title>
+    <title>Admin Resiq - Register</title>
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900&amp;display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
         <div class="col-12 p-0">    
           <div class="login-card">
             <div>
-              <div><a class="logo" href="index.html"><img class="img-fluid for-light" src="<?= base_url(); ?>/assets/admin/images/logo/login.png" alt="looginpage"><img class="img-fluid for-dark" src="../assets/images/logo/logo_dark.png" alt="looginpage"></a></div>
+              <div><a class="logo" href="dashboard"><h4>Resiq.id</h4></a></div>
               <div class="login-main"> 
                 <form class="theme-form">
                   <h4>Create your account</h4>
