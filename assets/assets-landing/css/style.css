@@ -465,6 +465,13 @@ body {
 	height: 1px;
 	background-color: #f5f7fc
 }
+.spek {
+	background: rgba(194, 192, 192, 0.233);
+	color: #000000;
+	font-size: 1.125rem;
+	padding: .875rem;
+	text-transform: capitalize;
+}
 .hover-y {
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;

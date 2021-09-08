@@ -139,7 +139,7 @@
                 <div class="icon-box">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/Garansi.png" width="70%">
+							<img src="assets/images/Garansi.png" width="70%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -152,7 +152,7 @@
                 <div class="icon-box margin-top-50px">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/layanan.png" width="70%"> 
+							<img src="assets/images/layanan.png" width="70%"> 
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -165,7 +165,7 @@
                 <div class="icon-box">
                     <div class="info-icon">
                         <span class="icon">
-							<img src="assets/assets-landing/images/jasakirim.png" width="70%">
+							<img src="assets/images/jasakirim.png" width="70%">
 						</span>
                     </div><!-- end info-icon-->
                     <div class="info-content">
@@ -234,13 +234,8 @@
                         </div><!-- end card-item -->
                         <div class="card-item mb-0">
                             <div class="card-img">
-<<<<<<< HEAD
                                 <a href="hotel-single.html" class="d-block">
                                     <img src="assets/assets-landing/images/produk/paving3.jpg" alt="">
-=======
-                                <a href="produk2.php" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving3.jpg" alt="">
->>>>>>> edc053d09ecc41ddaa6bc9ba5d0c3f323722d4f4
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Bookmark">
                                     <i class="la la-heart-o"></i>
@@ -259,13 +254,8 @@
                         </div><!-- end card-item -->
                         <div class="card-item mb-0">
                             <div class="card-img">
-<<<<<<< HEAD
                                 <a href="hotel-single.html" class="d-block">
                                     <img src="assets/assets-landing/images/produk/paving4.jpg" alt="">
-=======
-                                <a href="produk3.php" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving4.jpg" alt="">
->>>>>>> edc053d09ecc41ddaa6bc9ba5d0c3f323722d4f4
                                 </a>
                                 <span class="badge">Featured</span>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Bookmark">
@@ -285,13 +275,8 @@
                         </div><!-- end card-item -->
                         <div class="card-item mb-0">
                             <div class="card-img">
-<<<<<<< HEAD
                                 <a href="hotel-single.html" class="d-block">
                                     <img src="assets/assets-landing/images/produk/paving5.jpg" alt="">
-=======
-                                <a href="produk4.php" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving5.jpg" alt="">
->>>>>>> edc053d09ecc41ddaa6bc9ba5d0c3f323722d4f4
                                 </a>
                                 <span class="badge">Popular</span>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Bookmark">
@@ -311,13 +296,8 @@
                         </div><!-- end card-item -->
                         <div class="card-item mb-0">
                             <div class="card-img">
-<<<<<<< HEAD
                                 <a href="hotel-single.html" class="d-block">
                                     <img src="assets/assets-landing/images/produk/paving6.jpg" alt="">
-=======
-                                <a href="produk5.php" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving6.jpg" alt="">
->>>>>>> edc053d09ecc41ddaa6bc9ba5d0c3f323722d4f4
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Bookmark">
                                     <i class="la la-heart-o"></i>
@@ -337,13 +317,8 @@
                         </div><!-- end card-item -->
                         <div class="card-item mb-0">
                             <div class="card-img">
-<<<<<<< HEAD
                                 <a href="hotel-single.html" class="d-block">
                                     <img src="assets/assets-landing/images/produk/paving7.jpg" alt="">
-=======
-                                <a href="produk6.php" class="d-block">
-                                    <img src="assets/assets-landing/images/produk/paving7.jpg" alt="">
->>>>>>> edc053d09ecc41ddaa6bc9ba5d0c3f323722d4f4
                                 </a>
                                 <div class="add-to-wishlist icon-element" data-toggle="tooltip" data-placement="top" title="Bookmark">
                                     <i class="la la-heart-o"></i>
