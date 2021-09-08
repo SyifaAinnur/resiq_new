@@ -14,7 +14,7 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html"> <i data-feather="home"></i></a></li>
             <li class="breadcrumb-item">Dashboard</li>
-            <li class="breadcrumb-item active">Project List</li>
+            <li class="breadcrumb-item active">Quisioner List</li>
           </ol>
         </div>
       </div>

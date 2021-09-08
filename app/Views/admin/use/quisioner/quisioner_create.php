@@ -37,10 +37,21 @@
                                 <div class="col-sm-4">
                                     <div class="mb-3">
                                         <label>Tipe Jawaban</label>
-                                        <select class="form-select">
-                                            <option>Jawaban Singkat</option>
-                                            <option>Dropdown</option>
+                                        <select class="form-select" id="seeAnotherField">
+                                            <option value="select">Pilih Tipe Jawaban</option>
+                                            <option value="no">Jawaban Singkat</option>
+                                            <option value="yes">Dropdown</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="mb-3">
+                                        <div class="form-group" id="otherFieldDiv">
+                                            <label for="otherField">Option 1</label>
+                                            <input class="form-control" type="text" id="otherField" placeholder="Masukkan Pilhan 1">
+                                            <label for="otherField">Option 2</label>
+                                            <input class="form-control" type="text" id="otherField" placeholder="Masukkan Pilhan 2">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -80,4 +91,5 @@
         </div>
     </div>
 </div>
+
 <?= $this->endSection() ?>
