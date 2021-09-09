@@ -15,7 +15,9 @@ class Quisioner extends BaseController{
 	}
 
     public function add()	{
-
-		return view('admin/use/quisioner/quisioner_create');
+		$method = $_SERVER['REQUEST_METHOD'];
+		if($method == 'GET'){
+			return view('admin/use/quisioner/quisioner_create');
+		}
 	}
 }
