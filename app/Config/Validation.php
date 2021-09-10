@@ -53,4 +53,18 @@ class Validation
 			'required'      => 'Password wajib diisi'
 		]
 	];
+
+	// Validasi Add Quisioner
+	public $addQuesioner = [
+		'pertanyaan' 	=> 'required',
+		'tipe' 			=> 'required'
+	];	 
+	public $addQuesioner_errors = [
+		'pertanyaan' 	=> [
+			'required'      => 'Pertanyaan wajib diisi'
+		],
+		'tipe' 			=> [
+			'required'      => 'Tipe wajib diisi'
+		]
+	];
 }
