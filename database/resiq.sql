@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 25, 2021 at 03:27 PM
+-- Generation Time: Sep 10, 2021 at 04:07 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -32,8 +32,37 @@ CREATE TABLE `question_answer` (
   `update_time` timestamp NULL DEFAULT NULL,
   `id` int(11) NOT NULL,
   `idUJenis` int(11) NOT NULL,
-  `idQMaster` int(11) NOT NULL
+  `idQMaster` int(11) NOT NULL,
+  `answer` longtext DEFAULT NULL,
+  `idQATipe` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `question_answerpilihan`
+--
+
+CREATE TABLE `question_answerpilihan` (
+  `create_time` timestamp NOT NULL DEFAULT current_timestamp(),
+  `update_time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `id` int(11) NOT NULL,
+  `idQATipe` int(11) NOT NULL,
+  `pilihanAnswer` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `question_answertipe`
+--
+
+CREATE TABLE `question_answertipe` (
+  `create_time` timestamp NULL DEFAULT current_timestamp(),
+  `update_time` timestamp NULL DEFAULT NULL,
+  `id` int(11) NOT NULL,
+  `namaTipe` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -47,7 +76,7 @@ CREATE TABLE `question_master` (
   `id` int(11) NOT NULL,
   `idUJenis` int(11) NOT NULL,
   `question` longtext DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -58,7 +87,7 @@ CREATE TABLE `question_master` (
 CREATE TABLE `timestamps` (
   `create_time` timestamp NULL DEFAULT current_timestamp(),
   `update_time` timestamp NULL DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -71,7 +100,7 @@ CREATE TABLE `user` (
   `email` varchar(255) DEFAULT NULL,
   `password` varchar(32) NOT NULL,
   `create_time` timestamp NULL DEFAULT current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -87,14 +116,14 @@ CREATE TABLE `users` (
   `username` varchar(45) DEFAULT NULL,
   `sandi` varchar(255) DEFAULT NULL,
   `nama` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`create_time`, `update_time`, `id`, `idUJenis`, `username`, `sandi`, `nama`) VALUES
-('2021-08-25 12:57:42', NULL, 1, 1, 'admin', '$2y$10$fgffU0fUl16ae.w5VycpfeuTrePas9HL4fLlDRq/r4y.mXr.x5qEC', 'Administrator');
+('2021-09-06 13:28:48', NULL, 1, 1, 'admin', '$2y$10$fgffU0fUl16ae.w5VycpfeuTrePas9HL4fLlDRq/r4y.mXr.x5qEC', 'Administrator');
 
 -- --------------------------------------------------------
 
@@ -108,16 +137,15 @@ CREATE TABLE `users_jenis` (
   `id` int(11) NOT NULL,
   `namaJenis` varchar(45) DEFAULT NULL,
   `hakAkses` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users_jenis`
 --
 
 INSERT INTO `users_jenis` (`create_time`, `update_time`, `id`, `namaJenis`, `hakAkses`) VALUES
-('2021-08-25 12:53:30', NULL, 1, 'Admin', NULL),
-('2021-08-25 12:53:30', NULL, 2, 'Suplier', NULL),
-('2021-08-25 12:53:30', NULL, 3, 'Client', NULL);
+('2021-09-06 13:27:06', NULL, 1, 'Admin', NULL),
+('2021-09-06 13:27:06', NULL, 2, 'Suplier', NULL);
 
 --
 -- Indexes for dumped tables
@@ -129,7 +157,20 @@ INSERT INTO `users_jenis` (`create_time`, `update_time`, `id`, `namaJenis`, `hak
 ALTER TABLE `question_answer`
   ADD PRIMARY KEY (`id`),
   ADD KEY `fk_question_answer_users_jenis1_idx` (`idUJenis`),
-  ADD KEY `fk_question_answer_question_master1_idx` (`idQMaster`);
+  ADD KEY `fk_question_answer_question_master1_idx` (`idQMaster`),
+  ADD KEY `fk_question_answer_question_answerTipe1_idx` (`idQATipe`);
+
+--
+-- Indexes for table `question_answerpilihan`
+--
+ALTER TABLE `question_answerpilihan`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `question_answertipe`
+--
+ALTER TABLE `question_answertipe`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `question_master`
@@ -162,6 +203,18 @@ ALTER TABLE `question_answer`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT for table `question_answerpilihan`
+--
+ALTER TABLE `question_answerpilihan`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `question_answertipe`
+--
+ALTER TABLE `question_answertipe`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT for table `question_master`
 --
 ALTER TABLE `question_master`
@@ -177,7 +230,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users_jenis`
 --
 ALTER TABLE `users_jenis`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
@@ -187,6 +240,7 @@ ALTER TABLE `users_jenis`
 -- Constraints for table `question_answer`
 --
 ALTER TABLE `question_answer`
+  ADD CONSTRAINT `fk_question_answer_question_answerTipe1` FOREIGN KEY (`idQATipe`) REFERENCES `question_answertipe` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_question_answer_question_master1` FOREIGN KEY (`idQMaster`) REFERENCES `question_master` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   ADD CONSTRAINT `fk_question_answer_users_jenis1` FOREIGN KEY (`idUJenis`) REFERENCES `users_jenis` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
