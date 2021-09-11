@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-6">
                     <h3>
-                        Project List</h3>
+                        Quisioner List</h3>
                 </div>
                 <div class="col-6">
                     <ol class="breadcrumb">
@@ -29,25 +29,25 @@
                 $errors = session()->getFlashdata('errors');
                 $error = session()->getFlashdata('error');
                 $success = session()->getFlashdata('success');
-                if(!empty($errors)){ ?>
-                <div class="alert alert-danger" role="alert">
-                    <ul>
-                    <?php foreach ($errors as $errors) : ?>
-                        <li><?= esc($errors) ?></li>
-                    <?php endforeach ?>
-                    </ul>
-                </div>
+                if (!empty($errors)) { ?>
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            <?php foreach ($errors as $errors) : ?>
+                                <li><?= esc($errors) ?></li>
+                            <?php endforeach ?>
+                        </ul>
+                    </div>
                 <?php
-                } 
-                if(!empty($error)){ ?>
-                <div class="alert alert-danger" role="alert">
-                    <?= esc($error) ?><br />
-                </div>
-                <?php } 
-                if(!empty($success)){?>
-                <div class="alert alert-success" role="alert">
-                    <?= esc($success) ?><br />
-                </div>
+                }
+                if (!empty($error)) { ?>
+                    <div class="alert alert-danger" role="alert">
+                        <?= esc($error) ?><br />
+                    </div>
+                <?php }
+                if (!empty($success)) { ?>
+                    <div class="alert alert-success" role="alert">
+                        <?= esc($success) ?><br />
+                    </div>
                 <?php } ?>
                 <div class="card">
                     <div class="row">
@@ -66,8 +66,117 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="tab-content" id="top-tabContent">
+                            <div class="tab-pane fade show active" id="top-home" role="tabpanel" aria-labelledby="top-home-tab">
+                                <div class="col-sm-12">
+                                    <div class="card">
+                                        <div class="card-block row">
+                                            <div class="col-sm-12 col-lg-12 col-xl-12">
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead class="table-light">
+                                                            <tr>
+                                                                <th scope="col">#</th>
+                                                                <th scope="col">Soal</th>
+                                                                <th scope="col">Tipe Jawaban</th>
+                                                                <th scope="col">Aksi</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>1</th>
+                                                                <td>Jenis sampah yang dihasilkan / dikumpulkan (organik / anorganik)?</td>
+                                                                <td>Dropdown</td>
+                                                                <td>
+                                                                    <button type='button' class='btn btn-danger'>
+                                                                        <a href="#" style="color:white;">Hapus</a>
+                                                                    </button>
+                                                                    <button type='button' class='btn btn-success' >
+                                                                        <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
+                                                                    </button>
+                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        Tampilkan
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>2</th>
+                                                                <td>Berapa kapasitas sampah organik yang dihasilkan per hari? (Kg)</td>
+                                                                <td>Jawaban Singkat</td>
+                                                                <td>
+                                                                    <button type='button' class='btn btn-danger'>
+                                                                        <a href="#" style="color:white;">Hapus</a>
+                                                                    </button>
+                                                                    <button type='button' class='btn btn-success' >
+                                                                        <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
+                                                                    </button>
+                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        Tampilkan
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>3</th>
+                                                                <td>Berapa kapasitas sampah an-organik yang dihasilkan per hari? (Kg)</td>
+                                                                <td>Jawaban Singkat</td>
+                                                                <td>
+                                                                    <button type='button' class='btn btn-danger'>
+                                                                        <a href="#" style="color:white;">Hapus</a>
+                                                                    </button>
+                                                                    <button type='button' class='btn btn-success' >
+                                                                        <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
+                                                                    </button>
+                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                        Tampilkan
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Tampilkan Quisioner</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <h5 class="" id="exampleModalLabel">Pilih halaman untuk menampilka quisioner</h5>
+                                                            <div class="col-sm-4">
+                                                                <div class="mb-3">
+                                                                    <select class="form-select" name="tipe" id="seeAnotherField" required>
+                                                                        <option value="">Pilih Halaman</option>
+                                                                        <option >Rumah Tangga</option>
+                                                                        <option >Pengepul</option>
+                                                                        <option >Pengemis</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary">Save</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- Modal -->
     <!-- Container-fluid Ends-->
 </div>
 <?= $this->endSection() ?>

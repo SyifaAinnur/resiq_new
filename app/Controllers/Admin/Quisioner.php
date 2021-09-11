@@ -79,4 +79,10 @@ class Quisioner extends BaseController{
 			return view('admin/use/quisioner/quisioner_create');
 		}
 	}
+
+	public function edit(){
+		return view('admin/use/quisioner/quisioner_edit');
+	}
+
+
 }
