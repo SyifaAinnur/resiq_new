@@ -165,6 +165,14 @@
                                         <li><a href="<?= base_url('admin/quisioner/add'); ?>">Create new</a></li>
                                     </ul>
                                 </li>
+                                <li class="sidebar-list">
+                                    <label class="badge badge-danger">New</label><a class="sidebar-link sidebar-title" href="#"><i data-feather="box"></i><span>Jawaban</span></a>
+                                    <ul class="sidebar-submenu">
+                                        <li><a href="<?= base_url('admin/jawaban/rumah_tangga'); ?>">Rumah Tangga</a></li>
+                                        <li><a href="<?= base_url('admin/jawaban/pengepul'); ?>">Pengepul</a></li>
+                                        <li><a href="<?= base_url('admin/jawaban/pemulung'); ?>">Pemulung</a></li>
+                                    </ul>
+                                </li>
                                 <li class="sidebar-main-title">
                                     <div>
                                         <h6>Forms & Table</h6>

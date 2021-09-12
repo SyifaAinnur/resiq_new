@@ -33,28 +33,49 @@
                                 $errors = session()->getFlashdata('errors');
                                 $error = session()->getFlashdata('error');
                                 $success = session()->getFlashdata('success');
-                                if(!empty($errors)){ ?>
-                                <div class="alert alert-danger" role="alert">
-                                    <ul>
-                                    <?php foreach ($errors as $errors) : ?>
-                                        <li><?= esc($errors) ?></li>
-                                    <?php endforeach ?>
-                                    </ul>
-                                </div>
+                                if (!empty($errors)) { ?>
+                                    <div class="alert alert-danger" role="alert">
+                                        <ul>
+                                            <?php foreach ($errors as $errors) : ?>
+                                                <li><?= esc($errors) ?></li>
+                                            <?php endforeach ?>
+                                        </ul>
+                                    </div>
                                 <?php
-                                } 
-                                if(!empty($error)){ ?>
-                                <div class="alert alert-danger" role="alert">
-                                    <?= esc($error) ?><br />
-                                </div>
-                                <?php } 
-                                if(!empty($success)){?>
-                                <div class="alert alert-success" role="alert">
-                                    <?= esc($success) ?><br />
-                                </div>
+                                }
+                                if (!empty($error)) { ?>
+                                    <div class="alert alert-danger" role="alert">
+                                        <?= esc($error) ?><br />
+                                    </div>
+                                <?php }
+                                if (!empty($success)) { ?>
+                                    <div class="alert alert-success" role="alert">
+                                        <?= esc($success) ?><br />
+                                    </div>
                                 <?php } ?>
+                                <?= csrf_field() ?>
+                                <div class="col-sm-12">
+                                    <h5>Pilih Quisioner</h5>
+                                </div>
+                                <div class="col">
+                                    <div class="m-t-15 m-checkbox-inline custom-radio-ml">
+                                        <div class="form-check radio radio-primary">
+                                            <input class="form-check-input" id="radio11" type="radio" name="radio1" value="option1">
+                                            <label class="form-check-label" for="radio11">Rumah Tangga</label>
+                                        </div>
+                                        <div class="form-check radio radio-secondary">
+                                            <input class="form-check-input" id="radio22" type="radio" name="radio1" value="option1">
+                                            <label class="form-check-label" for="radio22">Pengepul</label>
+                                        </div>
+                                        <div class="form-check radio radio-success">
+                                            <input class="form-check-input" id="radio55" type="radio" name="radio1" value="option1">
+                                            <label class="form-check-label" for="radio55">Pemulung</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                </br>
+                                </br>
                                 <div class="row">
-                                    <?= csrf_field() ?>
                                     <div class="col-sm-4">
                                         <div class="mb-3">
                                             <label>Pertanyaan</label>
@@ -80,30 +101,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="mb-3">
-                                            <label>Ukuran</label>
-                                            <select class="form-select">
-                                                <option>Small</option>
-                                                <option>Medium</option>
-                                                <option>Big</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="mb-3">
-                                            <label>Tanggal Setor</label>
-                                            <input class="datepicker-here form-control" type="text" data-language="en">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="mb-3">
-                                            <label>Ending date</label>
-                                            <input class="datepicker-here form-control" type="text" data-language="en">
-                                        </div>
-                                    </div> 
-                                </div> -->
                                 <div class="row">
                                     <div class="col">
                                         <div><button type="submit" class="btn btn-success me-3">Add</button><a class="btn btn-danger" href="<?= base_url("admin/quisioner"); ?>">Cancel</a></div>
