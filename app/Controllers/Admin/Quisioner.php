@@ -42,6 +42,7 @@ class Quisioner extends BaseController{
 			$pertanyaan = filter_var($this->request->getVar('pertanyaan'), FILTER_SANITIZE_STRING);
 			$tipe = filter_var($this->request->getVar('tipe'), FILTER_SANITIZE_STRING);
 			$option = filter_var($this->request->getVar('option'), FILTER_SANITIZE_STRING);
+			$UJenis = filter_var($this->request->getVar('UJenis'), FILTER_SANITIZE_STRING);
 
 			$data = [
 				'pertanyaan' => $pertanyaan,
@@ -55,7 +56,7 @@ class Quisioner extends BaseController{
                 return redirect()->to(base_url('admin/quisioner/add'));
             } else {
 				$dataQuestionMaster = [
-					'idUJenis' 		=> 1,
+					'idUJenis' 		=> $UJenis,
 					'question' 		=> $pertanyaan
 				];
 				$modelQuestionMaster->insert($dataQuestionMaster);

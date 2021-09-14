@@ -60,15 +60,15 @@
                                 <div class="col">
                                     <div class="m-t-15 m-checkbox-inline custom-radio-ml">
                                         <div class="form-check radio radio-primary">
-                                            <input class="form-check-input" id="radio11" type="radio" name="radio1" value="option1">
+                                            <input class="form-check-input" id="radio11" type="radio" name="UJenis" value="3">
                                             <label class="form-check-label" for="radio11">Rumah Tangga</label>
                                         </div>
                                         <div class="form-check radio radio-secondary">
-                                            <input class="form-check-input" id="radio22" type="radio" name="radio1" value="option1">
+                                            <input class="form-check-input" id="radio22" type="radio" name="UJenis" value="4">
                                             <label class="form-check-label" for="radio22">Pengepul</label>
                                         </div>
                                         <div class="form-check radio radio-success">
-                                            <input class="form-check-input" id="radio55" type="radio" name="radio1" value="option1">
+                                            <input class="form-check-input" id="radio55" type="radio" name="UJenis" value="5">
                                             <label class="form-check-label" for="radio55">Pemulung</label>
                                         </div>
                                     </div>
