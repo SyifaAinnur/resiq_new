@@ -87,8 +87,8 @@
                                             <label>Tipe Jawaban</label>
                                             <select class="form-select" name="tipe" id="seeAnotherField" required>
                                                 <option value="">Pilih Tipe Jawaban</option>
-                                                <option value="singkat">Jawaban Singkat</option>
-                                                <option value="dropdown">Dropdown</option>
+                                                <option value="Jawaban Singkat">Jawaban Singkat</option>
+                                                <option value="Dropdown">Dropdown</option>
                                             </select>
                                         </div>
                                     </div>
