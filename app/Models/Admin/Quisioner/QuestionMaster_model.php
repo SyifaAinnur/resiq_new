@@ -9,7 +9,8 @@ class QuestionMaster_model extends Model{
 
     // Listing
 	public function listing(){
-		$this->select('*');
+		$this->select('question_master.*, question_answertipe.namaTipe');
+		$this->join('question_answertipe', 'question_answertipe.id = question_master.id');
 		$this->orderBy("id", "DESC");
 		$query = $this->get();
 		return $query->getResultArray();

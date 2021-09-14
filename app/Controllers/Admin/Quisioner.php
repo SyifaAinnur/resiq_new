@@ -23,7 +23,12 @@ class Quisioner extends BaseController{
         }
         // End proteksi
 
-		return view('admin/use/quisioner');
+		$modelQuestionMaster = new QuestionMaster_model();
+		$data = [
+			'questionMaster' => $modelQuestionMaster->listing(),
+		];
+
+		return view('admin/use/quisioner', $data);
 	}
 
     public function add(){

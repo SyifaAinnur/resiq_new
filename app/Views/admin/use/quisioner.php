@@ -86,10 +86,13 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
+                                                            <?php 
+                                                            $no = 1;
+                                                            foreach($questionMaster as $question) : ?>
                                                             <tr>
-                                                                <th>1</th>
-                                                                <td>Jenis sampah yang dihasilkan / dikumpulkan (organik / anorganik)?</td>
-                                                                <td>Dropdown</td>
+                                                                <th><?= $no; ?></th>
+                                                                <td><?= $question['question']; ?></td>
+                                                                <td><?= $question['namaTipe']; ?></td>
                                                                 <td>
                                                                     <button type='button' class='btn btn-danger'>
                                                                         <a href="#" style="color:white;">Hapus</a>
@@ -97,43 +100,12 @@
                                                                     <button type='button' class='btn btn-success' >
                                                                         <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
                                                                     </button>
-                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                                    <!-- <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                                         Tampilkan
-                                                                    </button>
+                                                                    </button> -->
                                                                 </td>
                                                             </tr>
-                                                            <tr>
-                                                                <th>2</th>
-                                                                <td>Berapa kapasitas sampah organik yang dihasilkan per hari? (Kg)</td>
-                                                                <td>Jawaban Singkat</td>
-                                                                <td>
-                                                                    <button type='button' class='btn btn-danger'>
-                                                                        <a href="#" style="color:white;">Hapus</a>
-                                                                    </button>
-                                                                    <button type='button' class='btn btn-success' >
-                                                                        <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
-                                                                    </button>
-                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                                        Tampilkan
-                                                                    </button>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th>3</th>
-                                                                <td>Berapa kapasitas sampah an-organik yang dihasilkan per hari? (Kg)</td>
-                                                                <td>Jawaban Singkat</td>
-                                                                <td>
-                                                                    <button type='button' class='btn btn-danger'>
-                                                                        <a href="#" style="color:white;">Hapus</a>
-                                                                    </button>
-                                                                    <button type='button' class='btn btn-success' >
-                                                                        <a href="<?= base_url('admin/quisioner/edit'); ?>" style="color:white;">Edit</a>
-                                                                    </button>
-                                                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                                        Tampilkan
-                                                                    </button>
-                                                                </td>
-                                                            </tr>
+                                                            <?php endforeach; ?>
                                                         </tbody>
                                                     </table>
                                                 </div>
